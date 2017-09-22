@@ -2,11 +2,11 @@
 
 set -e -x
 
-pwd
+#pwd
 
 pushd flight-school
-  env
-  curl http://services.faa.gov/airport/status/DFW?format=application/json
+  #env
+  #curl http://services.faa.gov/airport/status/DFW?format=application/json
   bundle install
   bundle exec rspec
 popd
